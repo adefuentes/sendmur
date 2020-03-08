@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		528F4B5A2336315100607D6C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528F4B592336315100607D6C /* User.swift */; };
+		528F4B5E23363E9600607D6C /* SMLastMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528F4B5D23363E9600607D6C /* SMLastMessagesViewController.swift */; };
+		528F4B6023366D1500607D6C /* SMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528F4B5F23366D1500607D6C /* SMViewController.swift */; };
+		528F4B622336AD0B00607D6C /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528F4B612336AD0B00607D6C /* Extension+UIColor.swift */; };
+		528F4B66233817E600607D6C /* LastMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528F4B65233817E600607D6C /* LastMessage.swift */; };
+		5296844C232FFDD2002AF502 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5296844B232FFDD2002AF502 /* AppDelegate.swift */; };
+		5296844E232FFDD2002AF502 /* SMSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5296844D232FFDD2002AF502 /* SMSignupViewController.swift */; };
+		52968453232FFDD3002AF502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52968452232FFDD3002AF502 /* Assets.xcassets */; };
+		52968456232FFDD3002AF502 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52968454232FFDD3002AF502 /* LaunchScreen.storyboard */; };
+		5296845E2330122E002AF502 /* SMPresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5296845D2330122E002AF502 /* SMPresentationViewController.swift */; };
+		529684602330170A002AF502 /* SMLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5296845F2330170A002AF502 /* SMLoginViewController.swift */; };
+		52968463233019BF002AF502 /* SMPullUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52968462233019BF002AF502 /* SMPullUp.swift */; };
+		52968465233019F3002AF502 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52968464233019F3002AF502 /* Extension+UIView.swift */; };
+		5296846723301A28002AF502 /* SMTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5296846623301A28002AF502 /* SMTextField.swift */; };
+		5296846923301F9E002AF502 /* SMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5296846823301F9E002AF502 /* SMButton.swift */; };
+		52A80F8A233D5DD5006C12CE /* SMImageProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A80F89233D5DD5006C12CE /* SMImageProfileCell.swift */; };
+		52A80F8C233EB26C006C12CE /* SMLastMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A80F8B233EB26C006C12CE /* SMLastMessagesView.swift */; };
+		52A80F8E233EB42A006C12CE /* Extension+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A80F8D233EB42A006C12CE /* Extension+UIImageView.swift */; };
+		52A80F94233EC145006C12CE /* SMSignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A80F93233EC145006C12CE /* SMSignUpModel.swift */; };
+		52B3A3F9234FBD0E003FB0E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52B3A3F8234FBD0E003FB0E2 /* GoogleService-Info.plist */; };
+		52C0028A233F68100055DC7E /* Extension+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C00289233F68100055DC7E /* Extension+Encodable.swift */; };
+		52C0028C234284350055DC7E /* SMLatestMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C0028B234284350055DC7E /* SMLatestMessageModel.swift */; };
+		52C0028E234524280055DC7E /* SMFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C0028D234524280055DC7E /* SMFooterView.swift */; };
+		52C0029023452A020055DC7E /* SMNewMessafeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C0028F23452A020055DC7E /* SMNewMessafeViewController.swift */; };
+		52C0029223452C230055DC7E /* SMUserViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C0029123452C230055DC7E /* SMUserViewCell.swift */; };
+		52C002942347C8480055DC7E /* SMFromMessageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C002932347C8480055DC7E /* SMFromMessageViewCell.swift */; };
+		52C002962347C85A0055DC7E /* SMMessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C002952347C85A0055DC7E /* SMMessageCollectionViewCell.swift */; };
+		52C002982347D2020055DC7E /* SMToMessageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C002972347D2020055DC7E /* SMToMessageViewCell.swift */; };
+		52C0029A2347D2B90055DC7E /* SMConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C002992347D2B90055DC7E /* SMConversationView.swift */; };
+		52C0029C2347D2FD0055DC7E /* SMHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C0029B2347D2FD0055DC7E /* SMHeaderView.swift */; };
+		52E6ABEB2350EBDF00FCF206 /* Extension+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6ABEA2350EBDF00FCF206 /* Extension+UICollectionView.swift */; };
+		52E6ABED2350EC7400FCF206 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6ABEC2350EC7400FCF206 /* ChatMessage.swift */; };
+		F44A7C40B22CA2DBE0DC32F4 /* Pods_Sendmur.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57C9EEAF30EBE7753637F1E /* Pods_Sendmur.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		528F4B592336315100607D6C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		528F4B5D23363E9600607D6C /* SMLastMessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMLastMessagesViewController.swift; sourceTree = "<group>"; };
+		528F4B5F23366D1500607D6C /* SMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMViewController.swift; sourceTree = "<group>"; };
+		528F4B612336AD0B00607D6C /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
+		528F4B65233817E600607D6C /* LastMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastMessage.swift; sourceTree = "<group>"; };
+		52968448232FFDD2002AF502 /* Sendmur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sendmur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5296844B232FFDD2002AF502 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5296844D232FFDD2002AF502 /* SMSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSignupViewController.swift; sourceTree = "<group>"; };
+		52968452232FFDD3002AF502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52968455232FFDD3002AF502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52968457232FFDD3002AF502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5296845D2330122E002AF502 /* SMPresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMPresentationViewController.swift; sourceTree = "<group>"; };
+		5296845F2330170A002AF502 /* SMLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMLoginViewController.swift; sourceTree = "<group>"; };
+		52968462233019BF002AF502 /* SMPullUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMPullUp.swift; sourceTree = "<group>"; };
+		52968464233019F3002AF502 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
+		5296846623301A28002AF502 /* SMTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMTextField.swift; sourceTree = "<group>"; };
+		5296846823301F9E002AF502 /* SMButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMButton.swift; sourceTree = "<group>"; };
+		52A80F89233D5DD5006C12CE /* SMImageProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMImageProfileCell.swift; sourceTree = "<group>"; };
+		52A80F8B233EB26C006C12CE /* SMLastMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMLastMessagesView.swift; sourceTree = "<group>"; };
+		52A80F8D233EB42A006C12CE /* Extension+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImageView.swift"; sourceTree = "<group>"; };
+		52A80F93233EC145006C12CE /* SMSignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSignUpModel.swift; sourceTree = "<group>"; };
+		52B3A3F8234FBD0E003FB0E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52C00289233F68100055DC7E /* Extension+Encodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Encodable.swift"; sourceTree = "<group>"; };
+		52C0028B234284350055DC7E /* SMLatestMessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMLatestMessageModel.swift; sourceTree = "<group>"; };
+		52C0028D234524280055DC7E /* SMFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMFooterView.swift; sourceTree = "<group>"; };
+		52C0028F23452A020055DC7E /* SMNewMessafeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMNewMessafeViewController.swift; sourceTree = "<group>"; };
+		52C0029123452C230055DC7E /* SMUserViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMUserViewCell.swift; sourceTree = "<group>"; };
+		52C002932347C8480055DC7E /* SMFromMessageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMFromMessageViewCell.swift; sourceTree = "<group>"; };
+		52C002952347C85A0055DC7E /* SMMessageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMMessageCollectionViewCell.swift; sourceTree = "<group>"; };
+		52C002972347D2020055DC7E /* SMToMessageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMToMessageViewCell.swift; sourceTree = "<group>"; };
+		52C002992347D2B90055DC7E /* SMConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMConversationView.swift; sourceTree = "<group>"; };
+		52C0029B2347D2FD0055DC7E /* SMHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMHeaderView.swift; sourceTree = "<group>"; };
+		52E6ABEA2350EBDF00FCF206 /* Extension+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UICollectionView.swift"; sourceTree = "<group>"; };
+		52E6ABEC2350EC7400FCF206 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		C73B5534F48D2859D233F432 /* Pods-Sendmur.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sendmur.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sendmur/Pods-Sendmur.debug.xcconfig"; sourceTree = "<group>"; };
+		C944919C5AC17C6005750C50 /* Pods-Sendmur.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sendmur.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sendmur/Pods-Sendmur.release.xcconfig"; sourceTree = "<group>"; };
+		E57C9EEAF30EBE7753637F1E /* Pods_Sendmur.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sendmur.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52968445232FFDD2002AF502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44A7C40B22CA2DBE0DC32F4 /* Pods_Sendmur.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		528F4B582336314300607D6C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52E6ABEC2350EC7400FCF206 /* ChatMessage.swift */,
+				528F4B592336315100607D6C /* User.swift */,
+				528F4B65233817E600607D6C /* LastMessage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		528F4B5B23363E5E00607D6C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				528F4B5F23366D1500607D6C /* SMViewController.swift */,
+				5296844D232FFDD2002AF502 /* SMSignupViewController.swift */,
+				5296845D2330122E002AF502 /* SMPresentationViewController.swift */,
+				5296845F2330170A002AF502 /* SMLoginViewController.swift */,
+				528F4B5D23363E9600607D6C /* SMLastMessagesViewController.swift */,
+				52C0028F23452A020055DC7E /* SMNewMessafeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		528F4B5C23363E7300607D6C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				52968464233019F3002AF502 /* Extension+UIView.swift */,
+				528F4B612336AD0B00607D6C /* Extension+UIColor.swift */,
+				52A80F8D233EB42A006C12CE /* Extension+UIImageView.swift */,
+				52C00289233F68100055DC7E /* Extension+Encodable.swift */,
+				52E6ABEA2350EBDF00FCF206 /* Extension+UICollectionView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5296843F232FFDD2002AF502 = {
+			isa = PBXGroup;
+			children = (
+				5296844A232FFDD2002AF502 /* Sendmur */,
+				52968449232FFDD2002AF502 /* Products */,
+				826BB8D57539E84D15A11FF0 /* Pods */,
+				EA6A706A1153BDAFDB104207 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52968449232FFDD2002AF502 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52968448232FFDD2002AF502 /* Sendmur.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5296844A232FFDD2002AF502 /* Sendmur */ = {
+			isa = PBXGroup;
+			children = (
+				52A80F92233EC12E006C12CE /* Models */,
+				52A80F91233EC122006C12CE /* API */,
+				528F4B5C23363E7300607D6C /* Extensions */,
+				528F4B5B23363E5E00607D6C /* ViewControllers */,
+				5296846123301997002AF502 /* Views */,
+				5296844B232FFDD2002AF502 /* AppDelegate.swift */,
+				52968452232FFDD3002AF502 /* Assets.xcassets */,
+				52968454232FFDD3002AF502 /* LaunchScreen.storyboard */,
+				52B3A3F8234FBD0E003FB0E2 /* GoogleService-Info.plist */,
+				52968457232FFDD3002AF502 /* Info.plist */,
+			);
+			path = Sendmur;
+			sourceTree = "<group>";
+		};
+		5296846123301997002AF502 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52968462233019BF002AF502 /* SMPullUp.swift */,
+				5296846623301A28002AF502 /* SMTextField.swift */,
+				5296846823301F9E002AF502 /* SMButton.swift */,
+				52A80F89233D5DD5006C12CE /* SMImageProfileCell.swift */,
+				52A80F8B233EB26C006C12CE /* SMLastMessagesView.swift */,
+				52C0028D234524280055DC7E /* SMFooterView.swift */,
+				52C0029123452C230055DC7E /* SMUserViewCell.swift */,
+				52C002952347C85A0055DC7E /* SMMessageCollectionViewCell.swift */,
+				52C002932347C8480055DC7E /* SMFromMessageViewCell.swift */,
+				52C002972347D2020055DC7E /* SMToMessageViewCell.swift */,
+				52C002992347D2B90055DC7E /* SMConversationView.swift */,
+				52C0029B2347D2FD0055DC7E /* SMHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52A80F91233EC122006C12CE /* API */ = {
+			isa = PBXGroup;
+			children = (
+				528F4B582336314300607D6C /* Models */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		52A80F92233EC12E006C12CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52A80F93233EC145006C12CE /* SMSignUpModel.swift */,
+				52C0028B234284350055DC7E /* SMLatestMessageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		826BB8D57539E84D15A11FF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C73B5534F48D2859D233F432 /* Pods-Sendmur.debug.xcconfig */,
+				C944919C5AC17C6005750C50 /* Pods-Sendmur.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA6A706A1153BDAFDB104207 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E57C9EEAF30EBE7753637F1E /* Pods_Sendmur.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52968447232FFDD2002AF502 /* Sendmur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5296845A232FFDD3002AF502 /* Build configuration list for PBXNativeTarget "Sendmur" */;
+			buildPhases = (
+				BC260265BA515DD58BD4A6CC /* [CP] Check Pods Manifest.lock */,
+				52968444232FFDD2002AF502 /* Sources */,
+				52968445232FFDD2002AF502 /* Frameworks */,
+				52968446232FFDD2002AF502 /* Resources */,
+				0DD44B1AE6616BCF81CF9F7C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sendmur;
+			productName = Sendmur;
+			productReference = 52968448232FFDD2002AF502 /* Sendmur.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52968440232FFDD2002AF502 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Angel Fuentes";
+				TargetAttributes = {
+					52968447232FFDD2002AF502 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 52968443232FFDD2002AF502 /* Build configuration list for PBXProject "Sendmur" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5296843F232FFDD2002AF502;
+			productRefGroup = 52968449232FFDD2002AF502 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52968447232FFDD2002AF502 /* Sendmur */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52968446232FFDD2002AF502 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52968456232FFDD3002AF502 /* LaunchScreen.storyboard in Resources */,
+				52968453232FFDD3002AF502 /* Assets.xcassets in Resources */,
+				52B3A3F9234FBD0E003FB0E2 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DD44B1AE6616BCF81CF9F7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sendmur/Pods-Sendmur-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AngleGradientLayer/AngleGradientLayer.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableFirebase/CodableFirebase.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AngleGradientLayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableFirebase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sendmur/Pods-Sendmur-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC260265BA515DD58BD4A6CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sendmur-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52968444232FFDD2002AF502 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C002962347C85A0055DC7E /* SMMessageCollectionViewCell.swift in Sources */,
+				5296844E232FFDD2002AF502 /* SMSignupViewController.swift in Sources */,
+				5296845E2330122E002AF502 /* SMPresentationViewController.swift in Sources */,
+				52A80F94233EC145006C12CE /* SMSignUpModel.swift in Sources */,
+				52968465233019F3002AF502 /* Extension+UIView.swift in Sources */,
+				52C0029A2347D2B90055DC7E /* SMConversationView.swift in Sources */,
+				528F4B6023366D1500607D6C /* SMViewController.swift in Sources */,
+				52C002942347C8480055DC7E /* SMFromMessageViewCell.swift in Sources */,
+				529684602330170A002AF502 /* SMLoginViewController.swift in Sources */,
+				52C0029023452A020055DC7E /* SMNewMessafeViewController.swift in Sources */,
+				528F4B5A2336315100607D6C /* User.swift in Sources */,
+				52C002982347D2020055DC7E /* SMToMessageViewCell.swift in Sources */,
+				5296844C232FFDD2002AF502 /* AppDelegate.swift in Sources */,
+				528F4B5E23363E9600607D6C /* SMLastMessagesViewController.swift in Sources */,
+				52C0029C2347D2FD0055DC7E /* SMHeaderView.swift in Sources */,
+				5296846923301F9E002AF502 /* SMButton.swift in Sources */,
+				52E6ABED2350EC7400FCF206 /* ChatMessage.swift in Sources */,
+				5296846723301A28002AF502 /* SMTextField.swift in Sources */,
+				52A80F8E233EB42A006C12CE /* Extension+UIImageView.swift in Sources */,
+				52C0028C234284350055DC7E /* SMLatestMessageModel.swift in Sources */,
+				52968463233019BF002AF502 /* SMPullUp.swift in Sources */,
+				52E6ABEB2350EBDF00FCF206 /* Extension+UICollectionView.swift in Sources */,
+				52A80F8A233D5DD5006C12CE /* SMImageProfileCell.swift in Sources */,
+				52C0028E234524280055DC7E /* SMFooterView.swift in Sources */,
+				528F4B622336AD0B00607D6C /* Extension+UIColor.swift in Sources */,
+				528F4B66233817E600607D6C /* LastMessage.swift in Sources */,
+				52A80F8C233EB26C006C12CE /* SMLastMessagesView.swift in Sources */,
+				52C0028A233F68100055DC7E /* Extension+Encodable.swift in Sources */,
+				52C0029223452C230055DC7E /* SMUserViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52968454232FFDD3002AF502 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52968455232FFDD3002AF502 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52968458232FFDD3002AF502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52968459232FFDD3002AF502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5296845B232FFDD3002AF502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C73B5534F48D2859D233F432 /* Pods-Sendmur.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JK73CBV8N;
+				INFOPLIST_FILE = Sendmur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asource.Sendmur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5296845C232FFDD3002AF502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C944919C5AC17C6005750C50 /* Pods-Sendmur.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JK73CBV8N;
+				INFOPLIST_FILE = Sendmur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asource.Sendmur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52968443232FFDD2002AF502 /* Build configuration list for PBXProject "Sendmur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52968458232FFDD3002AF502 /* Debug */,
+				52968459232FFDD3002AF502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5296845A232FFDD3002AF502 /* Build configuration list for PBXNativeTarget "Sendmur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5296845B232FFDD3002AF502 /* Debug */,
+				5296845C232FFDD3002AF502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52968440232FFDD2002AF502 /* Project object */;
+}
